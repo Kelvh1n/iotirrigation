@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: iot-irrigation-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    branches: 
+      - main
+    autoDeploy: true
+    deployContext: production
