@@ -6,4 +6,3 @@ services:
     startCommand: npm start
     plan: free
     autoDeploy: true
-    deployContext: production
